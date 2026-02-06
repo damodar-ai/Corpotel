@@ -1,0 +1,27 @@
+{
+  "name": "corp-hotel-booking",
+  "version": "1.0.0",
+  "description": "Corporate Hotel Booking Application - Monolithic Full Stack",
+  "type": "module",
+  "main": "backend/server.js",
+  "scripts": {
+    "dev": "npm run dev:backend & npm run dev:frontend",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "npm run build:backend && npm run build:frontend",
+    "build:backend": "cd backend && npm run build",
+    "build:frontend": "cd frontend && npm run build",
+    "start": "node backend/server.js",
+    "test": "npm run test:backend && npm run test:frontend",
+    "test:backend": "cd backend && npm run test",
+    "test:frontend": "cd frontend && npm run test"
+  },
+  "keywords": [
+    "hotel",
+    "booking",
+    "corporate",
+    "fullstack"
+  ],
+  "author": "",
+  "license": "MIT"
+}
