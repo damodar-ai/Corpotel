@@ -18,7 +18,6 @@
     "noUnusedParameters": true,
     "noImplicitReturns": false,
     "noFallthroughCasesInSwitch": true,
-    "allowImportingTsExtensions": true,
     "noEmit": false
   },
   "ts-node": {
