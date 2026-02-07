@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "nodemon --exec node --loader ts-node/esm server.ts",
     "build": "tsc",
-    "start": "node dist/server.js",
+    "start": "node dist/server.",
     "test": "vitest",
     "db:reset": "node --loader ts-node/esm database/reset.ts"
   },
